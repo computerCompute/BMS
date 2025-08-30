@@ -19,10 +19,10 @@ project
 |-- bot-sort
 </pre>
 
-## 🚀 Case 1) BoT-SORT + MMPose + ST-GCN
+## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
 
-## 🚀 Case 2) ByteTrack + EGRU
+## 🚀 demo 2) ByteTrack + EGRU
 
-## 🚀 Case 3) ByteTrack + Fusion(EGRU/ST-GCN)
+## 🚀 demo 3) ByteTrack + Fusion(EGRU/ST-GCN)
 
 
