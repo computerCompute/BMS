@@ -1,9 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from tqdm import tqdm
-from sklearn.metrics import classification_report, recall_score
-
 
 class EGRUCell(nn.Module):
     def __init__(self, input_size: int, hidden_size: int):
