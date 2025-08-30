@@ -40,6 +40,6 @@ cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt�
 1. ByteTrack(track_id별 bbox 정보수집) 
 2. bbox 정보 추출 및 피처 계산  
 3. MMPose(프레임 track별 스켈레톤 추출)
-4. egru,stgcn fusion falling inference 
+4. Fusion egru,stgcn falling inference 
 
 
