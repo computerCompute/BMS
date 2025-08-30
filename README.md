@@ -28,6 +28,7 @@ inference 모델 : stgcn, egru
 
 
 ## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
+<img width="1208" height="671" alt="image" src="https://github.com/user-attachments/assets/6cdd23b0-def6-40db-9c0b-02083645ed06" />
 
 1. BoT-SORT(re-id 적용 및 track_id별 bbox 정보 추출) 
 2. MMPose(프레임 track별 스켈레톤 추출)
