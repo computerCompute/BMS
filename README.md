@@ -8,14 +8,15 @@
 project
 |-- mim: pretrained mmpose model
 |-- mmpose
-│ 
-│   ├──saved_pkl:전처리 데이터 저장
-│── predict_video:낙상 결과 추론 코드(시각화)
-│── stgcn:
-│   ├──config:custom yaml
-│   ├──model:학습 모델
-│   ├──net:stgcn.py
-│── webcam : 웹캠 실시간 낙상추론 코드(skeleton 시각화)
+|-- net egru
+|   |--pretrained:pretraiend model
+|   |--model:egru.net
+|-- stgcn
+|   |--feeder:preprocess
+|   |--tools: preprocess 
+|-- yolox
+|-- bytetrack
+|-- bot-sort
 </pre>
 
 ## 🚀 Case 1) BoT-SORT + MMPose + ST-GCN
