@@ -1,4 +1,3 @@
-![KakaoTalk_Photo_2025-08-29-20-49-07](https://github.com/user-attachments/assets/4cc74b37-4bc8-4b5f-93e0-6444809bd3e6)# Real-time Fall Detection
 
 이 저장소는 진명아이엔씨 현장실습 기간 동안 연구한 낙상 탐지 모델을 구현한 코드입니다.
 
