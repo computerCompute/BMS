@@ -22,7 +22,7 @@ project
 서버 환경 RTX A6000 GPU 0,1번 총 두 개를 사용했으며 회사내 GPU서버 , 교내 서버 등을 이용하였습니다.
 cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt를 참고하여 환경설정 하면 되겠습니다.
 
-tracking 모델 : BoT-SORT, ByteTrack, yolox-mot17  
+detection & tracking 모델 : BoT-SORT, ByteTrack, yolox-mot17  
 pose estimation 모델: openpose,mmpose  
 inference 모델 : stgcn, gru 
 
