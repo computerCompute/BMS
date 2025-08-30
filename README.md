@@ -25,25 +25,21 @@ cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt�
 
 코드에 쓰인 tracking 모델은 : BoT-SORT, ByteTrack, yolox-mot17 | pose estimation 모델은: openpose,mmpose |inference 모델은 : stgcn, gru 입니다.
 
-1. ㄴㅇ
-2. ㄴ
-
-
-
-
 
 
 ## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
-pipeline
 1.BoT-SORT(re-id 적용 및 track_id별 bbox 정보 추출) 
-2.ㅇㄴ
-
-
 2. MMPose(프레임 track별 스켈레톤 추출)
 3. 3.st-gcn 활용한 트랙별 falling inference 실행
+
 ## 🚀 demo 2) ByteTrack + extract feature +  EGRU
-pipeline: 1.ByteTrack(track_id별 bbox 정보수집) 2.bbox 정보 추출 및 피처 계산  3.egru 활용한 트랙별 falling inference 실행
+1. ByteTrack(track_id별 bbox 정보수집)
+2. bbox 정보 추출 및 피처 계산
+3. egru 활용한 트랙별 falling inference 실행
 ## 🚀 demo 3) ByteTrack + Fusion(EGRU/ST-GCN)
-pipeline: 1.ByteTrack(track_id별 bbox 정보수집) 2.bbox 정보 추출 및 피처 계산  3.MMPose(프레임 track별 스켈레톤 추출) 4.<egru,stgcn> fusion falling inference 
+1. ByteTrack(track_id별 bbox 정보수집) 
+2. bbox 정보 추출 및 피처 계산  
+3. MMPose(프레임 track별 스켈레톤 추출)
+4. egru,stgcn fusion falling inference 
 
 
