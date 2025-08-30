@@ -1,7 +1,11 @@
 # FALL_DETECTION(BMS)
--case1) BoT-SORT + mmpose + stgcn \n
--case2) ByteTrack + egru \n 
--case3) ByteTrack + fusion(egru/stgcn) \n
+# Real-time Fall Detection
+
+본 저장소는 다양한 방식의 낙상 탐지 구현을 정리합니다.
+
+---
+
+## 🚀 Case 1) BoT-SORT + MMPose + ST-GCN
 
 
 ## 0. 폴더 설명
