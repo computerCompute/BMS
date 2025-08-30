@@ -29,15 +29,18 @@ inference 모델 : stgcn, egru
 
 
 ## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
+
 1. BoT-SORT(re-id 적용 및 track_id별 bbox 정보 추출) 
 2. MMPose(프레임 track별 스켈레톤 추출)
 3. 3.st-gcn 활용한 트랙별 falling inference 실행
 
 ## 🚀 demo 2) ByteTrack + extract feature +  EGRU
+
 1. ByteTrack(track_id별 bbox 정보 추출)
 2. compute bbox feature
 3. egru 활용한 트랙별 falling inference 실행
 ## 🚀 demo 3) ByteTrack + Fusion(EGRU/ST-GCN)
+
 1. ByteTrack(track_id별 bbox 정보수집) 
 2. bbox 정보 추출 및 피처 계산  
 3. MMPose(프레임 track별 스켈레톤 추출)
