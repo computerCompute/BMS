@@ -1,7 +1,7 @@
 # FALL_DETECTION(BMS)
-##case1) BoT-SORT + mmpose + stgcn \n
-##case2) ByteTrack + egru \n 
-##case3) ByteTrack + fusion(egru/stgcn) \n
+-case1) BoT-SORT + mmpose + stgcn \n
+-case2) ByteTrack + egru \n 
+-case3) ByteTrack + fusion(egru/stgcn) \n
 
 
 ## 0. 폴더 설명
