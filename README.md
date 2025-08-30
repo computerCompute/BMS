@@ -50,6 +50,11 @@ https://github.com/user-attachments/assets/a406661b-7f88-4295-bcb1-4e6fb0067971
 3. egru 활용한 트랙별 falling inference 실행
 ## 🚀 demo 3) ByteTrack + Fusion(EGRU/ST-GCN)
 
+
+
+https://github.com/user-attachments/assets/46713cb5-302f-407c-8430-9b410d892149
+
+
 1. ByteTrack(track_id별 bbox 정보수집) 
 2. bbox 정보 추출 및 피처 계산  
 3. MMPose(프레임 track별 스켈레톤 추출)
