@@ -24,7 +24,7 @@ cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt�
 
 detection & tracking 모델 : BoT-SORT, ByteTrack, yolox-mot17  
 pose estimation 모델: openpose,mmpose  
-inference 모델 : stgcn, gru 
+inference 모델 : stgcn, egru 
 
 
 
