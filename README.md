@@ -33,8 +33,8 @@ cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt�
 3. 3.st-gcn 활용한 트랙별 falling inference 실행
 
 ## 🚀 demo 2) ByteTrack + extract feature +  EGRU
-1. ByteTrack(track_id별 bbox 정보수집)
-2. bbox 정보 추출 및 피처 계산
+1. ByteTrack(track_id별 bbox 정보 추출)
+2. compute bbox feature
 3. egru 활용한 트랙별 falling inference 실행
 ## 🚀 demo 3) ByteTrack + Fusion(EGRU/ST-GCN)
 1. ByteTrack(track_id별 bbox 정보수집) 
