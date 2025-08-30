@@ -24,7 +24,7 @@ project
 cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt를 참고하여 환경설정 하면 되겠습니다.
 
 ## tracking 모델은 : BoT-SORT, ByteTrack, yolox-mot17
-## pose estimation 모델은: openpose,mmpose,alphapose,mediapipe(웹캠 테스트할시)
+## pose estimation 모델은: openpose,mmpose
 ## inference 모델은 : stgcn, gru 입니다.
 
 
