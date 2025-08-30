@@ -1,7 +1,7 @@
 # Real-time Fall Detection
 
 이 저장소는 진명아이엔씨 현장실습 기간 동안 연구한 **낙상 탐지 모델(Fall Detection Model)**을 구현한 코드입니다.
-------------------------------------------
+
 ## 0. 폴더 설명
 <pre>
 project
