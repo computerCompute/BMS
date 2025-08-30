@@ -37,6 +37,9 @@ inference 모델 : stgcn, egru
 
 https://github.com/user-attachments/assets/e09cf97f-1c34-4e24-9f08-8138ea0170f8
 
+https://github.com/user-attachments/assets/53bf1b3e-cc8f-4410-ba86-bee84e1dd053
+
+
 
 1. ByteTrack(track_id별 bbox 정보 추출)
 2. compute bbox feature
