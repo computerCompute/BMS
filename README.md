@@ -28,7 +28,7 @@ cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt�
 
 
 ## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
-1.BoT-SORT(re-id 적용 및 track_id별 bbox 정보 추출) 
+1. BoT-SORT(re-id 적용 및 track_id별 bbox 정보 추출) 
 2. MMPose(프레임 track별 스켈레톤 추출)
 3. 3.st-gcn 활용한 트랙별 falling inference 실행
 
