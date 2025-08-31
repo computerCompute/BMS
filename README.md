@@ -34,7 +34,7 @@ inference 모델 : stgcn, egru
 2. MMPose(프레임 track별 스켈레톤 추출)
 3. 3.st-gcn 활용한 트랙별 falling inference 실행
 
-## 🚀 demo 2) ByteTrack + extract feature +  EGRU
+## 🚀 demo 2) ByteTrack + extract bbox feature +  EGRU
 
 https://github.com/user-attachments/assets/e09cf97f-1c34-4e24-9f08-8138ea0170f8
 
