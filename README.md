@@ -36,15 +36,11 @@ inference 모델 : stgcn, egru
 
 ## 🚀 demo 2) ByteTrack + extract feature +  EGRU
 
-https://github.com/user-attachments/assets/e09cf97f-1c34-4e24-9f08-8138ea0170f8
-
 
 https://github.com/user-attachments/assets/c7584c28-4662-4ef4-9120-45d6de85acac
+https://github.com/user-attachments/assets/7eb9e400-7580-40dc-bdf2-d8e0dd79a52b
 
 
-
-
-https://github.com/user-attachments/assets/a406661b-7f88-4295-bcb1-4e6fb0067971
 
 
 
