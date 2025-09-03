@@ -53,7 +53,10 @@ https://github.com/user-attachments/assets/7eb9e400-7580-40dc-bdf2-d8e0dd79a52b
 
 
 
-https://github.com/user-attachments/assets/46713cb5-302f-407c-8430-9b410d892149
+
+https://github.com/user-attachments/assets/b3c13540-f2db-42a8-8ff4-a582fb7e5d39
+
+
 
 
 1. ByteTrack(track_id별 bbox 정보수집) 
