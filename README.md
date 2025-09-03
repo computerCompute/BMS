@@ -25,6 +25,17 @@ detection & tracking 모델 : BoT-SORT, ByteTrack, yolox-mot17
 pose estimation 모델: openpose,mmpose  
 inference 모델 : stgcn, egru 
 
+## ⚙️ 서버 및 환경 설정
+
+- **GPU 환경**: RTX A6000 (0,1번 GPU, 총 2개 사용)  
+- **실행 서버**: 회사 내 GPU 서버 및 교내 서버 활용  
+- **CUDA 버전**: 11.8  
+- **환경 설정**: 동일한 환경에서는 `requirements.txt`를 참고하여 세팅 가능  
+
+### 사용 모델
+- **Detection & Tracking**: BoT-SORT, ByteTrack, YOLOX-mot17  
+- **Pose Estimation**: OpenPose, MMPose  
+- **Inference (행동 인식)**: ST-GCN, EGRU  
 
 
 ## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
