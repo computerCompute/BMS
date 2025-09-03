@@ -17,14 +17,6 @@ project
 |-- bot-sort
 </pre>
 
-## 1. 초기 세팅 
-서버 환경 RTX A6000 GPU 0,1번 총 두 개를 사용했으며 회사내 GPU서버 , 교내 서버 등을 이용하였습니다.
-cuda_11.8 버전에서 돌렸으며 환경이 동일한 경우 requirements.txt를 참고하여 환경설정 하면 되겠습니다.
-
-detection & tracking 모델 : BoT-SORT, ByteTrack, yolox-mot17  
-pose estimation 모델: openpose,mmpose  
-inference 모델 : stgcn, egru 
-
 ## ⚙️ 서버 및 환경 설정
 
 - **GPU 환경**: RTX A6000 (0,1번 GPU, 총 2개 사용)  
@@ -41,9 +33,13 @@ inference 모델 : stgcn, egru
 ## 🚀 demo 1) BoT-SORT + MMPose + ST-GCN
 <img width="1208" height="671" alt="image" src="https://github.com/user-attachments/assets/6cdd23b0-def6-40db-9c0b-02083645ed06" />
 
-1. BoT-SORT(re-id 적용 및 track_id별 bbox 정보 추출) 
-2. MMPose(프레임 track별 스켈레톤 추출)
-3. 3.st-gcn 활용한 트랙별 falling inference 실행
+**구현 과정**  
+1. **BoT-SORT** : Re-ID 기반 추적을 통해 track_id별 bbox 정보 추출  
+2. **MMPose** : 각 프레임의 track 단위 Skeleton 추출  
+3. **ST-GCN** : Skeleton 시퀀스를 입력으로 Falling Inference 수행  
+
+
+---   
 
 ## 🚀 demo 2) ByteTrack + extract feature +  EGRU
 
@@ -52,14 +48,14 @@ https://github.com/user-attachments/assets/c7584c28-4662-4ef4-9120-45d6de85acac
 
 https://github.com/user-attachments/assets/7eb9e400-7580-40dc-bdf2-d8e0dd79a52b
 
+**구현 과정**  
+1. **ByteTrack** : track_id별 bbox 정보 추출  
+2. **Feature Extract** : Bounding Box 기반 피처(cx, cy, vx, vy, Δaspect 등) 계산  
+3. **EGRU** : Temporal Feature 기반 Falling Inference 수행
 
 
+---   
 
-
-
-1. ByteTrack(track_id별 bbox 정보 추출)
-2. compute bbox feature
-3. egru 활용한 트랙별 falling inference 실행
 ## 🚀 demo 3) ByteTrack + Fusion(EGRU/ST-GCN)
 
 
@@ -70,9 +66,10 @@ https://github.com/user-attachments/assets/b3c13540-f2db-42a8-8ff4-a582fb7e5d39
 
 
 
-1. ByteTrack(track_id별 bbox 정보수집) 
-2. bbox 정보 추출 및 피처 계산  
-3. MMPose(프레임 track별 스켈레톤 추출)
-4. Fusion egru,stgcn falling inference 
+**구현 과정**  
+1. **ByteTrack** : track_id별 bbox 정보 수집  
+2. **MMPose** : Skeleton Feature 추출  
+3. **Fusion (EGRU + ST-GCN)** : BBox Feature + Skeleton Feature 융합, Ensemble Inference 실행  
 
+---
 
