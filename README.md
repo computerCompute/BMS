@@ -38,6 +38,7 @@ inference 모델 : stgcn, egru
 
 
 https://github.com/user-attachments/assets/c7584c28-4662-4ef4-9120-45d6de85acac
+
 https://github.com/user-attachments/assets/7eb9e400-7580-40dc-bdf2-d8e0dd79a52b
 
 
